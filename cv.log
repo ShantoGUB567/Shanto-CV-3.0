@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.4)  12 JUL 2026 13:14
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.4)  12 JUL 2026 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,9 +992,22 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 24.
- (section_headline.tex) (section_honors_awards.tex)
-(section_experience.tex) (section_skills.tex) (section_languages.tex)
-(section_interets.tex) [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
+[1
 color push gray 0
 color pop
 
@@ -1040,6 +1053,33 @@ color push gray 0
 color pop
 color push rgb 0 0 0
 color pop
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color push cmyk 0 0 0 1
+color pop
+color pop
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color push cmyk 0 0 0 1
+color pop
+color pop
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color push cmyk 0 0 0 1
+color pop
+color pop
+color push gray 0
+color pop
+] [2
+color push gray 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
 color push gray 0
 color pop
 color push rgb 0 0 0
@@ -1057,6 +1097,22 @@ color pop
 color push gray 0
 color pop
 color push gray 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
 color pop
 color push gray 0
 color pop
@@ -1070,15 +1126,15 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 1ADBF30BB6EEE1354DF66D24304B2BC5;607.
+(rerunfilecheck)             Checksum: 36008247468E67FF9B59F48942A1FED5;1317.
  ) 
 Here is how much of TeX's memory you used:
- 29462 strings out of 402807
- 613181 string characters out of 5445136
- 1131059 words of memory out of 5000000
- 57949 multiletter control sequences out of 15000+600000
+ 29417 strings out of 402807
+ 612011 string characters out of 5445136
+ 1142747 words of memory out of 5000000
+ 57922 multiletter control sequences out of 15000+600000
  628305 words of font info for 69 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 117i,11n,121p,1193b,891s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,121p,1193b,940s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv.pdf (1 page).
+Output written on cv.pdf (2 pages).

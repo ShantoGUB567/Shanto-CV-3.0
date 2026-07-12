@@ -1,10 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.4)  9 JUN 2026 12:23
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.4)  12 JUL 2026 13:14
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Shanto/Shanto_CV/cv.tex
-(e:/Shanto/Shanto_CV/cv.tex
+**./cv.tex
+(cv.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (documentMETADATA.cls
@@ -62,23 +61,10 @@ Package babel Info: Configuration files are deprecated, as
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\alsha\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
--english.tex)
 (C:\Users\alsha\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel
 -french.tex)
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 4330.
-
-(C:\Users\alsha\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
-df
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
-)
+(C:\Users\alsha\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex)
 Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 4330.
 
@@ -115,7 +101,20 @@ Package french3.ldf Info: No need for active punctuation characters
 \leftmarginFB=\dimen158
 \parindentFFN=\dimen159
 \FBfnindent=\dimen160
-)))
+))
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4330.
+
+(C:\Users\alsha\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
 (C:\Users\alsha\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
 (C:\Users\alsha\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
 (C:\Users\alsha\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
@@ -861,36 +860,29 @@ e=dflt;mapping=tex-text;"
 
 \rightcolumnlength=\skip76
 \leftcolumn=\skip77
-)
-Package french3.ldf Info: Setting StandardItemizeEnv=true for
-(french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 23.
-Package french3.ldf Info: Setting StandardEnumerateEnv=true for
-(french3.ldf)             compatibility with enumitem package,
-(french3.ldf)             reported on input line 23.
-(cv.aux)
+) (cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -898,64 +890,64 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
-LaTeX Font Info:    Redeclaring math accent \check on input line 23.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 22.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 22.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 22.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 22.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 22.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 22.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 22.
+LaTeX Font Info:    Redeclaring math accent \check on input line 22.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 22.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 22.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 22.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 22.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 23.
+(Font)              `operators' in the math version `normal' on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/SourceSansPro-Light(0)/m/n on input 
-line 23.
+line 22.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 23.
+(Font)              `operators' in the math version `bold' on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/SourceSansPro-Light(0)/m/n on input
- line 23.
+ line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/SourceSansPro-Light(0)/m/n --> TU/SourceSansPro-Ligh
-t(0)/m/n on input line 23.
+t(0)/m/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/SourceSansPro-Light(0)/m/it on inpu
-t line 23.
+t line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/SourceSansPro-Light(0)/b/n on input
- line 23.
+ line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 23.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/SourceSansPro-Light(0)/m/n --> TU/SourceSansPro-Ligh
-t(0)/b/n on input line 23.
+t(0)/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/SourceSansPro-Light(0)/b/it on inp
-ut line 23.
+ut line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 23.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 23.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -991,48 +983,102 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 23.
+Package hyperref Info: Link coloring OFF on input line 22.
 (cv.out) (cv.out)
 \@outlinefile=\write4
 \openout4 = `cv.out'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-
- []
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
+(Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 25.
-(section_headline.tex) (section_honors_awards.tex) (section_experience.tex
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
-[]\TU/SourceSansPro-Light(0)/m/n/10 mise en oeuvre des frameworks de développem
-ent d’interface web (jQuery, Boots-
- []
+(Font)              <5> on input line 24.
+ (section_headline.tex) (section_honors_awards.tex)
+(section_experience.tex) (section_skills.tex) (section_languages.tex)
+(section_interets.tex) [1
+color push gray 0
+color pop
 
-) (section_skills.tex) (section_languages.tex
-Overfull \hbox (281.76436pt too wide) in alignment at lines 27--27
- [] [] 
- []
-
-) (section_interets.tex [1
-
-]) [2] (cv.aux)
+color push rgb 0 0 0
+color push cmyk 0 0 0 1
+color push rgb 0 0 0
+color push gray 0
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color push cmyk 0 0 0 1
+color pop
+color pop
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color push cmyk 0 0 0 1
+color pop
+color pop
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color push cmyk 0 0 0 1
+color pop
+color pop
+color pop
+color pop
+color pop
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color pop
+color push rgb 0 0 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
+color push gray 0
+color pop
+color push gray 0
+color pop
+color push gray 0
+color pop
+color push gray 0
+color pop
+color push rgb 0 0 0
+color pop
+color push gray 0
+color pop
+] (cv.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 5C73B252EF71CE134D34192D8EC9A7E4;651.
+(rerunfilecheck)             Checksum: 1ADBF30BB6EEE1354DF66D24304B2BC5;607.
  ) 
 Here is how much of TeX's memory you used:
- 29464 strings out of 402807
- 613213 string characters out of 5445136
- 1133633 words of memory out of 5000000
- 57950 multiletter control sequences out of 15000+600000
+ 29462 strings out of 402807
+ 613181 string characters out of 5445136
+ 1131059 words of memory out of 5000000
+ 57949 multiletter control sequences out of 15000+600000
  628305 words of font info for 69 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 117i,11n,121p,1211b,891s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,121p,1193b,891s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv.pdf (2 pages).
+Output written on cv.pdf (1 page).

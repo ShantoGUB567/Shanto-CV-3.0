@@ -56,7 +56,7 @@
 
 % Dependences
 %A Few Useful Packages
-\RequirePackage[english,french]{babel}
+\RequirePackage[french,english]{babel}
 % \RequirePackage[utf8]{luainputenc}
 \RequirePackage{fontspec} 					                 % for loading fonts
 \RequirePackage{url,parskip} 	    % other packages for formatting
@@ -97,8 +97,8 @@
 \definecolor{darkGrey}{HTML}{989898}
 
 \colorlet{linkcolor}{basecolor}
-\colorlet{accentcolor}{linkcolor!90}
-\colorlet{symbolcolor}{linkcolor!85}
+\colorlet{accentcolor}{basecolor}
+\colorlet{symbolcolor}{basecolor}
 
 % Setup hyperref package, and colours for links
 %\definecolor{linkcolour}{rgb}{0,0.2,0.6}
@@ -225,7 +225,7 @@
 
 % Render author's linked-in (optional)
 % Usage: \linkedin{<linked-in-nick>}
-\newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{http://www.linkedin.com/in/#1/fr}{linkedin.com/in/#1}}
+\newcommand*{\linkedin}[1]{\sociallink{\linkedinSymbol}{https://www.linkedin.com/in/#1}{linkedin.com/in/#1}}
 
 % Render author's personal website (optional)
 % Usage: \personalLink{<website-without-http://www.>}

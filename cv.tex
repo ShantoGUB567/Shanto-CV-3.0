@@ -13,10 +13,20 @@
 
 \socialinfo{
 	\smartphone{+880 1521582378}
-	\email{me.shahriarshanto@gmail.com}\\
-	\address{Mirpur-14, Dhaka, Bangladesh}
+	\email{me.shahriarshanto@gmail.com}
+	\address{Mirpur-14, Dhaka, Bangladesh}\\
 	\github{ShantoGUB567}
+	\website{https://shahriarshanto.vercel.app/}{shahriarshanto.vercel.app}
 	\linkedin{alshahriarshanto}
+}
+
+\renewcommand\project[5]{
+  \begin{minipage}[t]{\dimexpr(\linewidth) - 1.5em}
+    \textbf{\textsc{#1}} \hfill #3\smallskip\\
+    #4\smallskip\\
+    \footnotesize{\foreach \n in {#5}{\cvtag{\n}}}\\
+  \end{minipage}
+  \\*
 }
 
 \begin{document}
@@ -29,7 +39,7 @@
 		{\thepage}
 
 	\par{
-	Cross-Platform Mobile App Developer specializing in Flutter and Dart, with experience building scalable applications, clean architectures, and modern user interfaces. Dedicated to creating responsive mobile and web experiences that combine performance optimization with user-centered design.
+	Dedicated Flutter Developer specializing in building scalable and high-performance mobile applications for Android and iOS. Experienced in integrating RESTful APIs, Firebase, Socket.IO for real-time communication, Google Maps and AI-powered features to deliver reliable, production-ready solutions. Strong problem-solving skills, attention to detail, and a continuous learning mindset with a passion for writing clean, efficient code and building user-focused applications in collaborative development environments.
 	}
 
 	\sectionTitle{Education}{\faMortarBoard}
@@ -49,21 +59,14 @@
 	    {Nov 2025}      {
 	                      Developing and maintaining cross-platform mobile applications using Flutter, focusing on scalable architecture, clean code practices, API integration, state management, and performance optimization. Collaborating with teams to deliver user-friendly, responsive, and production-ready applications.
 	                    }
-	                    {Flutter, Dart, API Integration, State Management, Git}
+	                    {Flutter, Dart, REST API Integration, Socket.IO, Firebase, GitLab, Google Map, AppStore, Play Store}
 	  \emptySeparator
 	  \experience
 	    {Nov 2025}      {Flutter Developer Intern}{Zensoft Lab}{}
 	    {Oct 2025}      {
 	                      Learned and worked on Flutter fundamentals including UI development, widget structuring, state management basics, project architecture, and folder structure organization. Gained hands-on experience in building responsive interfaces.
 	                    }
-	                    {Flutter, Dart, Mobile UI, State Management}
-	  \emptySeparator
-	  \experience
-	    {Jan 2026}      {Technical Support \& Event Manager Intern}{Center of Excellence for Teaching and Learning}{}
-	    {Jun 2024}      {
-	                      Managed technical support operations for academic and institutional programs, coordinated event logistics, handled digital systems setup, and ensured smooth execution of workshops, seminars, and training sessions.
-	                    }
-	                    {Technical Support, Event Management, Operations}
+	                    {Flutter, Dart, Mobile UI, State Management, Git, GitHub, Supabase}
 	  \emptySeparator
 	  \experience
 	    {Dec 2025}      {Assistant Invigilator}{NAT Test, Green University of Bangladesh}{}
@@ -76,83 +79,114 @@
 	\sectionTitle{Projects}{\faLaptop}
 	\begin{projects}
 		\project
-		{Green Campus}{2025}
-		{\github{ShantoGUB567/green-campus}}
+		{Sippd.Coffee}{}
+		{\href{https://apps.apple.com/sg/app/sippd-coffee/id6752921147}{\faApple\ App Store} \hspace{1.5em} \href{https://play.google.com/store/apps/details?id=com.sipped.app}{\faAndroid\ Play Store}}
+		{Engineered a location-based coffee discovery and review platform with Firebase authentication, REST API integration, and AI-driven insights, enabling users to explore nearby cafés, submit ratings, and share real-time feedback.}
+		{Flutter, REST API, AI/ML, Firebase}
+					
+		\project
+		{Real Convert}{}
+		{\href{https://apps.apple.com/in/app/real-convert/id6748574890}{\faApple\ App Store} \hspace{1.5em} \href{https://play.google.com/store/apps/details?id=com.solank.currencyconverter}{\faAndroid\ Play Store}}
+		{Delivered a currency converter supporting 160+ currencies with live exchange rates, historical charts, home screen widgets, and offline mode.}
+		{Flutter, REST API, Widgets}
+					
+		\project
+		{Green Campus}{}
+		{\github{ShantoGUB567/Green-Campus}}
 		{A comprehensive campus management platform for GUB students including course schedules, attendance tracking, and cafeteria services.}
 		{Flutter, Firebase, REST API}
 					
 		\project
-		{AI Classroom Assistant}{2025}
-		{\github{ShantoGUB567/ai-assistant}}
-		{A Flutter-based classroom assistant powered by Google Gemini AI, integrating real-time AI assistance to streamline learning and classroom activities.}
-		{Flutter, AI/ML, Google Gemini}
-	
-		\project
-		{Billing Infrastructure}{2025}
-		{\github{ShantoGUB567/billing}}
-		{A custom point-of-sales app built using Riverpod architecture for inventory and billing management.}
-		{Flutter, Riverpod, SQLite}
+		{NW RMG Website}{}
+		{\website{https://www.nw-rmg.com/}{nw-rmg.com}}
+		{A professional business website for NW RMG, showcasing apparel products, sustainable manufacturing processes, facilities, and certification info for international buyers.}
+		{HTML, CSS, JavaScript, Node.js, Express, MongoDB}
 	\end{projects}
 
 	\sectionTitle{Skills}{\faTasks}
 	\begin{keywords}
-			\keywordsentry{Programming}{\textbf{Flutter/Dart}, Python, Java, C}
-			\keywordsentry{Web \& Scripting}{HTML, CSS, JavaScript, NodeJS}
-			\keywordsentry{Engineering Tools}{Git, Firebase, Postman, Figma}
-			\keywordsentry{Databases}{MongoDB, Hive, MySQL, PostgreSQL}
+			\keywordsentry{Languages}{Dart, Go, Python, Java, C, C++, HTML, CSS, JavaScript, Bash}
+			\keywordsentry{Frameworks}{\textbf{Flutter}, Angular, NodeJS}
+			\keywordsentry{App Development}{Xcode, Google Play Store, App Store}
+			\keywordsentry{Databases \& Cloud}{Firebase, Supabase, MySQL, SQLite}
+			\keywordsentry{Tools}{Git, GitHub, GitLab, VS Code, Android Studio, Postman, Figma}
 	\end{keywords}
 
-	\twocolumnsection
-	{\sectionTitle{Languages}{\faComments}
+	\sectionTitle{Languages}{\faComments}
 	\begin{tabular}{ll}
 		\textbf{Bengali} & {\color{accentcolor}\faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle} \\
 		\textbf{English} & {\color{accentcolor}\faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircleThin} \\
-	\end{tabular}}
-	{\sectionTitle{Activities \& Achievements}{\faTrophy}
-	\vspace{1em}
-	\begin{itemize}
-		\item General Secretary, GUCC 2025
-		\item Published 3+ Flutter apps on Play Store
-		\item Member, LEO Club Green GUB
-	\end{itemize}
-	}
-	
-	\sectionTitle{Interests}{\faLightbulbO}
-	\begin{tabular}{rl}
-	    \textsc{Mind Games:} & Chess, Puzzles \\
-	    \textsc{Sports:} & Jogging, Football, Basketball \\
 	\end{tabular}
+	
+% 	\twocolumnsection
+% 	{\sectionTitle{Languages}{\faComments}
+% 	\begin{tabular}{ll}
+% 		\textbf{Bengali} & {\color{accentcolor}\faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle} \\
+% 		\textbf{English} & {\color{accentcolor}\faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircleThin} \\
+% 	\end{tabular}}
+% 	{\sectionTitle{Activities \& Achievements}{\faTrophy}
+% 	\vspace{1em}
+% 	\begin{itemize}
+% 		\item General Secretary, GUCC 2025
+% 		\item Published 3+ Flutter apps on Play Store
+% 		\item Member, LEO Club Green GUB
+% 	\end{itemize}
+% 	}
+	
+% 	\sectionTitle{Interests}{\faLightbulbO}
+% 	\begin{tabular}{rl}
+% 	    \textsc{Mind Games:} & Chess, Puzzles \\
+% 	    \textsc{Sports:} & Jogging, Football, Basketball \\
+% 	\end{tabular}
 
-	\sectionTitle{Outreach and Volunteering}{\faHeart}
+	\sectionTitle{Leadership Position}{\faHeart}
 	\begin{scholarship}
 		\scholarshipentry{2025--2026}
-						{\textbf{General Secretary}, Green University Computer Club (GUCC). Led coding workshops, tech events, and programming contests.}
-		\scholarshipentry{2025}
-						{\textbf{Event Lead}, GUCC V2C Event (Takes Coders Battles). Coordinated and managed event logistics for over 200 student participants.}
+						{\textbf{Joint General Secretary}, Green University Computer Club (GUCC). (10 March 2025 -- 26 April 2026)}
 		\scholarshipentry{2024--2026}
-						{\textbf{Active Member}, LEO Club Green GUB. Contributed to community service initiatives and social responsibility programs.}
+						{\textbf{Technical Support \& Event Manager Intern}, Center of Excellence for Teaching and Learning (CETL). (June 2024 -- January 2026)}
+		\scholarshipentry{2025--2026}
+						{\textbf{Advisor to President}, LEO Club of Green University. (03 March 2025 -- November 2025)}
+		\scholarshipentry{2025}
+						{\textbf{Lead Organizer}, HackTheAI - The Inter-University Hackathon. (25 September 2025)}
+		\scholarshipentry{2024--2025}
+						{\textbf{Event Coordinator}, Green University Computer Club (GUCC). (21 May 2024 -- 10 March 2025)}
+		\scholarshipentry{2024--2025}
+						{\textbf{Joint Treasurer}, LEO Club of Green University. (02 July 2024 -- 03 March 2025)}
+		\scholarshipentry{2024}
+						{\textbf{Lead Member}, GUB CSE Carnival 2024. (2--4 October 2024)}
+		\scholarshipentry{2023--2024}
+						{\textbf{Executive Member}, Green University Computer Club (GUCC). (01 August 2023 -- 21 May 2024)}
+		\scholarshipentry{2023}
+						{\textbf{Volunteer}, 2022 ICPC Asia Dhaka Regional Contest. (9--10 March 2023)}
 	\end{scholarship}
 
-	\sectionTitle{Teaching and Mentoring}{\faUsers}
-	\begin{experiences}
-	  \experience
-	    {2025--Present} {Technical Mentor}{Green University Computer Club}{}
-	    {2024}          {
-	                      Conducted coding workshops and hands-on tutoring sessions on Flutter and Dart for university students. Guided beginners through basic programming and mobile app architecture concepts.
-	                    }
-	                    {Mentoring, Public Speaking, Flutter, Dart}
-	\end{experiences}
+% 	\sectionTitle{Teaching and Mentoring}{\faUsers}
+% 	\begin{experiences}
+% 	  \experience
+% 	    {2025--Present} {Technical Mentor}{Green University Computer Club}{}
+% 	    {2024}          {
+% 	                      Conducted coding workshops and hands-on tutoring sessions on Flutter and Dart for university students. Guided beginners through basic programming and mobile app architecture concepts.
+% 	                    }
+% 	                    {Mentoring, Public Speaking, Flutter, Dart}
+% 	\end{experiences}
 
 	\sectionTitle{Achievements \& Certifications}{\faCertificate}
 	\begin{scholarship}
-		\scholarshipentry{2025}
-						{\textbf{App Developer \& Publisher}, Google Play Store. Published 3+ cross-platform Flutter apps with 1,000+ active users.}
-		\scholarshipentry{2025}
-						{\textbf{Coding Hackathon Winner}, National Programming Contests. Secured top positions in regional programming contests.}
+		\scholarshipentry{2024}
+						{\textbf{Successfully completed day-long CETL Workshop} on Strengthening Leadership Skills of Club’s Leaders Program for GUB Club Leaders, Green University of Bangladesh.}
+		\scholarshipentry{2023}
+						{\textbf{Completed Web Development}, Trendup Institute, Mirpur-10, Dhaka.}
 	\end{scholarship}
 
 	\sectionTitle{References}{\faQuoteLeft}
 	\medskip
-	References are available upon request.
+	\textbf{Md. Monirul Islam}\\
+	Assistant Professor, Department of CSE\\
+	Moderator, Green University Computer Club\\
+	Assistant Proctor\\
+	Green University of Bangladesh\\
+	Email: \href{mailto:monirul@cse.green.edu.bd}{monirul@cse.green.edu.bd}\\
+	Phone: +8801909416704
 
 \end{document}

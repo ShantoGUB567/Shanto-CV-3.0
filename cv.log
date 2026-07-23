@@ -1,10 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.4)  23 JUL 2026 11:29
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.4)  23 JUL 2026 11:42
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**e:/Shanto/Shanto_CV/cv.tex
-(e:/Shanto/Shanto_CV/cv.tex
+**./cv.tex
+(cv.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (documentMETADATA.cls
@@ -1117,12 +1116,12 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: C23342CACD6DDA5D5A2DEEC817960ED2;856.
  ) 
 Here is how much of TeX's memory you used:
- 29416 strings out of 402807
- 612034 string characters out of 5445136
- 1161398 words of memory out of 5000000
+ 29415 strings out of 402807
+ 611976 string characters out of 5445136
+ 1162398 words of memory out of 5000000
  57920 multiletter control sequences out of 15000+600000
  628305 words of font info for 69 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 117i,11n,121p,1211b,940s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,121p,1193b,940s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cv.pdf (2 pages).

@@ -8,6 +8,7 @@
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 
 \documentclass[localFont,alternative,monochrome]{documentMETADATA}
+\geometry{top=1.0cm, bottom=1.0cm, left=1.2cm, right=1.2cm}
 \name{Al Shahriar Ahommed}{Shanto}
 \tagline{Cross-Platform Mobile App Developer | Flutter Enthusiast | Dart Developer}
 
@@ -22,11 +23,11 @@
 
 \renewcommand\project[5]{
   \begin{minipage}[t]{\dimexpr(\linewidth) - 1.5em}
-    \textbf{\textsc{#1}} \hfill #3\smallskip\\
-    #4\smallskip\\
+    \textbf{\textsc{#1}} \hfill #3\\
+    #4\vspace{2pt}\\
     \footnotesize{\foreach \n in {#5}{\cvtag{\n}}}\\
   \end{minipage}
-  \\*
+  \\
 }
 
 \begin{document}
@@ -41,6 +42,7 @@
 	\par{
 	Dedicated Flutter Developer specializing in building scalable and high-performance mobile applications for Android and iOS. Experienced in integrating RESTful APIs, Firebase, Socket.IO for real-time communication, Google Maps and AI-powered features to deliver reliable, production-ready solutions. Strong problem-solving skills, attention to detail, and a continuous learning mindset with a passion for writing clean, efficient code and building user-focused applications in collaborative development environments.
 	}
+	\vspace{-0.4em}
 
 	\sectionTitle{Education}{\faMortarBoard}
 	\begin{scholarship}
@@ -79,6 +81,18 @@
 	\sectionTitle{Projects}{\faLaptop}
 	\begin{projects}
 		\project
+		{ZipBee Customer \& ZipBee Driver}{}
+		{\href{https://testflight.apple.com/join/Mn1htZrs}{\faApple\ Customer (TestFlight)} \hspace{1.2em} \href{https://testflight.apple.com/join/G1J4JY1A}{\faApple\ Driver (TestFlight)}}
+		{Developed a parcel-sharing platform (ZipBee Customer \& ZipBee Driver apps) featuring multi-destination dispatch, Google Maps route navigation guidance, in-app navigation, real-time chat, push notifications, and REST API integration.}
+		{Flutter, Google Maps, REST API, Socket.IO, Real-Time Chat, Push Notifications}
+					
+		\project
+		{Taco Client \& Taco Conductor}{}
+		{\href{https://testflight.apple.com/join/qtw85aeg}{\faApple\ Client (TestFlight)} \hspace{1.2em} \href{https://testflight.apple.com/join/ap6qyAFS}{\faApple\ Conductor (TestFlight)}}
+		{Built ride-sharing and parcel-delivery platforms (Taco Client \& Taco Conductor apps) featuring live cost negotiation via socket.io, Google Maps navigation, stateful trip/order workflows, and push alerts.}
+		{Flutter, Google Maps, REST API, Real-Time Chat, Push Notifications}
+					
+		\project
 		{Sippd.Coffee}{}
 		{\href{https://apps.apple.com/sg/app/sippd-coffee/id6752921147}{\faApple\ App Store} \hspace{1.5em} \href{https://play.google.com/store/apps/details?id=com.sipped.app}{\faAndroid\ Play Store}}
 		{Engineered a location-based coffee discovery and review platform with Firebase authentication, REST API integration, and AI-driven insights, enabling users to explore nearby cafés, submit ratings, and share real-time feedback.}
@@ -100,7 +114,7 @@
 		{NW RMG Website}{}
 		{\website{https://www.nw-rmg.com/}{nw-rmg.com}}
 		{A professional business website for NW RMG, showcasing apparel products, sustainable manufacturing processes, facilities, and certification info for international buyers.}
-		{HTML, CSS, JavaScript, Node.js, Express, MongoDB}
+		{Angular, TypeScript, HTML, CSS, JavaScript, Responsive Web Design}
 	\end{projects}
 
 	\sectionTitle{Skills}{\faTasks}

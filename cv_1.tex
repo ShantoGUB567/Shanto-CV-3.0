@@ -1,0 +1,206 @@
+% !TEX TS-program = xelatex
+% Secondary, recruiter-focused version of Shanto's CV
+%
+% Author:
+% Sabrina Benge
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative,monochrome]{documentMETADATA}
+\geometry{top=1.0cm, bottom=1.0cm, left=1.2cm, right=1.2cm}
+\name{Al Shahriar Ahommed}{Shanto}
+\tagline{Cross-Platform Mobile Engineer | Motivated Professional | Quick Learner}
+
+\socialinfo{
+	\smartphone{+880 1521582378}
+	\email{me.shahriarshanto@gmail.com}
+	\address{Mirpur-14, Dhaka, Bangladesh}\\
+	\github{ShantoGUB567}
+	\website{https://shahriarshanto.vercel.app/}{shahriarshanto.vercel.app}
+	\linkedin{alshahriarshanto}
+}
+
+\renewcommand\project[5]{
+  \begin{minipage}[t]{\dimexpr(\linewidth) - 1.5em}
+    \textbf{\textsc{#1}} \hfill #3\\
+    #4\vspace{2pt}\\
+    \footnotesize{\foreach \n in {#5}{\cvtag{\n}}}\\
+  \end{minipage}
+  \\
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{}} %\selectlanguage{english}\today
+		{\textsc{Al Shahriar Ahommed Shanto - CV (Secondary Version)}}
+		{\thepage}
+
+	\par{
+	Detail-oriented and motivated professional with strong problem-solving, communication, and analytical skills. Experienced in working in structured, technology-driven environments and adapting quickly to new processes and tools. Eager to build a career in US healthcare and Revenue Cycle Management (RCM), with a strong willingness to learn medical billing, insurance claims, and healthcare operations. Responsible, adaptable, and committed to accuracy and continuous learning.
+	}
+	\vspace{-0.4em}
+
+	\sectionTitle{Core Skills}{\faTasks}
+	\begin{keywords}
+			\keywordsentry{Mobile App Development}{\textbf{Flutter}, Dart, Responsive UI, State Management, App Store, Google Play Store}
+			\keywordsentry{Backend \& Data}{REST APIs, Socket.IO, Firebase, Supabase, MySQL, SQLite, Offline Caching}
+			\keywordsentry{Additional Languages}{Go, Python, Java, C, C++, TypeScript, JavaScript, HTML, CSS, Bash}
+			\keywordsentry{Tools}{Git, GitHub, GitLab, VS Code, Android Studio, Xcode, Postman, Figma}
+			\keywordsentry{Soft Skills}{MS Excel, Leadership, Effective Communication, Data Scraping, Data Scripting}
+	\end{keywords}
+
+	\sectionTitle{Education}{\faMortarBoard}
+	\begin{scholarship}
+		\scholarshipentry{2022--2026}
+						{\textbf{B.Sc in Computer Science and Engineering (CSE)}, Green University of Bangladesh (CGPA: 3.44)}
+		\scholarshipentry{2020}
+						{\textbf{Higher Secondary Certificate (HSC)}, Shaheed Police Smrity College (GPA: 5.00)}
+		\scholarshipentry{2018}
+						{\textbf{Secondary School Certificate (SSC)}, Shaheed Police Smrity College (GPA: 5.00)}
+	\end{scholarship}
+
+	\sectionTitle{Experience}{\faSuitcase}
+	\begin{experiences}
+	  \experience
+	    {Present}       {Flutter Developer}{Softvence Omega, Betopia Group}{}
+	    {Nov 2025}      {
+	                      Develop and maintain high-performance cross-platform mobile applications using Flutter. Architect and optimize state management \iffalse (Riverpod/Bloc) \fi and local database integrations, reducing API request latencies. Collaborate in Agile teams to build and deploy 5+ apps to the App Store and Google Play, ensuring a 99.9\% crash-free rate.
+	                    }
+	                    {Flutter, Dart, REST API Integration, Socket.IO, Firebase, GitLab, Google Maps, App Store, Play Store}
+	  \emptySeparator
+	  \experience
+	    {Nov 2025}      {Flutter Developer Intern}{Zensoft Lab}{}
+	    {Oct 2025}      {
+	                      Collaborated on mobile interface designs to build and ship 4+ pixel-perfect responsive layouts under mentor guidance. Structured widget trees and implemented state management solutions (Provider/GetX), resulting in modular and clean folder architectures. Resolved 15+ UI/UX bugs during cross-device QA testing.
+	                    }
+	                    {Flutter, Dart, Mobile UI, State Management, Git, GitHub, Supabase}
+	  \emptySeparator
+	  \experience
+	    {Dec 2025}      {Assistant Invigilator}{NAT Test, Green University of Bangladesh}{}
+	    {Apr 2024}      {
+	                      Supervised official examination sessions in strict compliance with standard Japanese NAT-TEST invigilation protocols and examination security guidelines. Managed candidate verification, exam paper distribution, and overall testing integrity under rigid schedules.
+	                    }
+	                    {Invigilation, Compliance, Operations, Examination Supervision}
+	\end{experiences}
+
+	\sectionTitle{Projects}{\faLaptop}
+	\begin{projects}
+		\project
+		{ZipBee -- Customer \& Driver Apps}{}
+		{\href{https://testflight.apple.com/join/Mn1htZrs}{\faApple\ Customer (TestFlight)} \hspace{1.2em} \href{https://testflight.apple.com/join/G1J4JY1A}{\faApple\ Driver (TestFlight)}}
+		{Developed dual cross-platform Flutter applications for a parcel-sharing platform. Implemented multi-destination delivery request creation, live parcel tracking, driver dispatch discovery, in-app Google Maps route navigation, real-time customer-driver chat, and push notifications with resilient REST API state management.}
+		{Flutter, Dart, Google Maps, REST API, Real-Time Chat, Push Notifications, Socket.IO}
+					
+		\project
+		{Taco -- Client \& Conductor Apps}{}
+		{\href{https://testflight.apple.com/join/qtw85aeg}{\faApple\ Client (TestFlight)} \hspace{1.2em} \href{https://testflight.apple.com/join/ap6qyAFS}{\faApple\ Conductor (TestFlight)}}
+		{Architected dual ride-sharing and parcel-delivery Flutter apps featuring real-time price negotiation between clients and conductors via Socket.IO. Integrated Google Maps for turn-by-turn navigation, asynchronous REST APIs for trip dispatch and pricing, and automated push notifications for lifecycle updates.}
+		{Flutter, Dart, Google Maps, REST API, Real-Time Chat, Push Notifications, UI/UX}
+					
+		\project
+		{Sippd.Coffee}{}
+		{\href{https://apps.apple.com/sg/app/sippd-coffee/id6752921147}{\faApple\ App Store} \hspace{1.5em} \href{https://play.google.com/store/apps/details?id=com.sipped.app}{\faAndroid\ Play Store}}
+		{Engineered a location-based cafe discovery and review platform featuring Firebase authentication, AI-driven insights, and REST API integration. Implemented interactive map exploration, café rating workflows, community reviews, and real-time user feedback feeds.}
+		{Flutter, Dart, REST API, AI/ML, Firebase, Geolocation}
+					
+		\project
+		{Real Convert}{}
+		{\href{https://apps.apple.com/in/app/real-convert/id6748574890}{\faApple\ App Store} \hspace{1.5em} \href{https://play.google.com/store/apps/details?id=com.solank.currencyconverter}{\faAndroid\ Play Store}}
+		{Built and published a high-performance currency converter supporting 160+ world currencies with live exchange rates, historical trend charts, offline mode data caching, and native home screen widgets for instant rate monitoring.}
+		{Flutter, Dart, REST API, Offline Caching, Home Screen Widgets}
+					
+		\project
+		{Green Campus}{}
+		{\github{ShantoGUB567/Green-Campus}}
+		{Developed a comprehensive campus utility portal for GUB university students, consolidating class routines, attendance tracking visualizer, direct semester examination results, and digital cafeteria menu ordering into a single native interface.}
+		{Flutter, Dart, Firebase, REST API, GetX}
+					
+		\project
+		{NW RMG Website}{}
+		{\website{https://www.nw-rmg.com/}{nw-rmg.com}}
+		{Designed and developed a responsive business web portal for NW RMG using Angular, showcasing apparel product catalogs, sustainable manufacturing processes, international compliance certifications, and buyer inquiry forms.}
+		{Angular, TypeScript, HTML5, CSS3, JavaScript, Responsive Web Design}
+	\end{projects}
+
+	\sectionTitle{Languages}{\faComments}
+	\begin{tabular}{ll}
+		\textbf{Bengali} & {\color{accentcolor}\faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle} \\
+		\textbf{English} & {\color{accentcolor}\faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircleThin} \\
+	\end{tabular}
+	
+% 	\twocolumnsection
+% 	{\sectionTitle{Languages}{\faComments}
+% 	\begin{tabular}{ll}
+% 		\textbf{Bengali} & {\color{accentcolor}\faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle} \\
+% 		\textbf{English} & {\color{accentcolor}\faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircle \enspace \faCircleThin} \\
+% 	\end{tabular}}
+% 	{\sectionTitle{Activities \& Achievements}{\faTrophy}
+% 	\vspace{1em}
+% 	\begin{itemize}
+% 		\item General Secretary, GUCC 2025
+% 		\item Published 3+ Flutter apps on Play Store
+% 		\item Member, LEO Club Green GUB
+% 	\end{itemize}
+% 	}
+	
+% 	\sectionTitle{Interests}{\faLightbulbO}
+% 	\begin{tabular}{rl}
+% 	    \textsc{Mind Games:} & Chess, Puzzles \\
+% 	    \textsc{Sports:} & Jogging, Football, Basketball \\
+% 	\end{tabular}
+
+	\sectionTitle{Leadership Position}{\faHeart}
+	\begin{scholarship}
+		\scholarshipentry{2025--2026}
+						{\textbf{Joint General Secretary}, Green University Computer Club (GUCC). (10 March 2025 -- 26 April 2026)}
+		\scholarshipentry{2024--2026}
+						{\textbf{Technical Support \& Event Manager Intern}, Center of Excellence for Teaching and Learning (CETL). (June 2024 -- January 2026)}
+		\scholarshipentry{2025--2026}
+						{\textbf{Advisor to President}, LEO Club of Green University. (03 March 2025 -- November 2025)}
+		\scholarshipentry{2025}
+						{\textbf{Lead Organizer}, HackTheAI - The Inter-University Hackathon. (25 September 2025)}
+		\scholarshipentry{2024--2025}
+						{\textbf{Event Coordinator}, Green University Computer Club (GUCC). (21 May 2024 -- 10 March 2025)}
+		\scholarshipentry{2024--2025}
+						{\textbf{Joint Treasurer}, LEO Club of Green University. (02 July 2024 -- 03 March 2025)}
+		\scholarshipentry{2024}
+						{\textbf{Lead Member}, GUB CSE Carnival 2024. (2--4 October 2024)}
+		\scholarshipentry{2023--2024}
+						{\textbf{Executive Member}, Green University Computer Club (GUCC). (01 August 2023 -- 21 May 2024)}
+		\scholarshipentry{2023}
+						{\textbf{Volunteer}, 2022 ICPC Asia Dhaka Regional Contest. (9--10 March 2023)}
+	\end{scholarship}
+
+% 	\sectionTitle{Teaching and Mentoring}{\faUsers}
+% 	\begin{experiences}
+% 	  \experience
+% 	    {2025--Present} {Technical Mentor}{Green University Computer Club}{}
+% 	    {2024}          {
+% 	                      Conducted coding workshops and hands-on tutoring sessions on Flutter and Dart for university students. Guided beginners through basic programming and mobile app architecture concepts.
+% 	                    }
+% 	                    {Mentoring, Public Speaking, Flutter, Dart}
+% 	\end{experiences}
+
+	\sectionTitle{Achievements \& Certifications}{\faCertificate}
+	\begin{scholarship}
+		\scholarshipentry{2024}
+						{\textbf{Successfully completed day-long CETL Workshop} on Strengthening Leadership Skills of Club’s Leaders Program for GUB Club Leaders, Green University of Bangladesh.}
+		\scholarshipentry{2023}
+						{\textbf{Completed Web Development}, Trendup Institute, Mirpur-10, Dhaka.}
+	\end{scholarship}
+
+	\sectionTitle{References}{\faQuoteLeft}
+	\medskip
+	\textbf{Md. Monirul Islam}\\
+	Assistant Professor, Department of CSE\\
+	Moderator, Green University Computer Club\\
+	Assistant Proctor\\
+	Green University of Bangladesh\\
+	Email: \href{mailto:monirul@cse.green.edu.bd}{monirul@cse.green.edu.bd}\\
+	Phone: +8801909416704
+
+\end{document}

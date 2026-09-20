@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.4)  18 AUG 2026 13:56
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.5) (preloaded format=xelatex 2026.6.4)  20 SEP 2026 19:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -861,7 +861,8 @@ e=dflt;mapping=tex-text;"
 
 \rightcolumnlength=\skip76
 \leftcolumn=\skip77
-) (cv.aux)
+)
+No file cv.aux.
 \openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -949,7 +950,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 33.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -985,41 +985,43 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 33.
-(cv.out) (cv.out)
 \@outlinefile=\write4
 \openout4 = `cv.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 35.
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 100--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 106--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
+Underfull \hbox (badness 10000) in paragraph at lines 112--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--111
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 
  []
 
@@ -1076,16 +1078,16 @@ color push gray 0
 color pop
 color push rgb 0 0 0
 color pop
+color push gray 0
+color pop
+] [2
+color push gray 0
+color pop
 color push rgb 0 0 0
 color pop
 color push rgb 0 0 0
 color push cmyk 0 0 0 1
 color pop
-color pop
-color push gray 0
-color pop
-] [2
-color push gray 0
 color pop
 color push rgb 0 0 0
 color pop
@@ -1124,16 +1126,23 @@ color pop
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: C23342CACD6DDA5D5A2DEEC817960ED2;856.
+
+
+Package rerunfilecheck Warning: File `cv.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  C23342CACD6DDA5D5A2DEEC817960ED2;856.
  ) 
 Here is how much of TeX's memory you used:
- 29417 strings out of 402807
- 612078 string characters out of 5445136
- 1199865 words of memory out of 5000000
- 57922 multiletter control sequences out of 15000+600000
+ 29408 strings out of 402807
+ 612002 string characters out of 5445136
+ 1206978 words of memory out of 5000000
+ 57919 multiletter control sequences out of 15000+600000
  628305 words of font info for 69 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 117i,11n,121p,1211b,938s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,121p,1211b,939s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cv.pdf (2 pages).
